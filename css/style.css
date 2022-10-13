@@ -70,11 +70,15 @@ main {
     white-space: nowrap;
 }
 
-/* SECTION 2 */
+/* SECTION 3 */
 
-/* .sec2 .col {
+.sec3 h1 {
+    font-size: 2.5rem;
+}
 
-} */
+.sec3 .last_row img {
+    filter: opacity(50%);
+}
 
 
 
