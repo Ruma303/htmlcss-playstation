@@ -108,6 +108,12 @@ main {
     background-color: none;
 }
 
+/* SECTION 6 */
+
+.sec6 .rotondo{
+    border-radius: 25px;
+}
+
 footer {
     background-color: rgb(28, 68, 153);
     height: auto;
