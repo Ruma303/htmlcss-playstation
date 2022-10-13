@@ -43,6 +43,10 @@ nav li {
     font-weight: 700;
 }
 
+.rotondo{
+    border-radius: 25px;
+}
+
 /* MAIN */
 
 main {
@@ -108,11 +112,22 @@ main {
     background-color: none;
 }
 
-/* SECTION 6 */
+/* SECTION 7 */
 
-.sec6 .rotondo{
-    border-radius: 25px;
+section.sec7 {
+    background-color: rgb(188, 186, 186);
 }
+
+.sec7 p {
+    font-weight: 600;
+}
+
+.sec7 a {
+    background-color: rgb(216, 217, 219);
+    font-weight: 600;
+}
+
+/* FOOTER */
 
 footer {
     background-color: rgb(28, 68, 153);
