@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: auto;
+}
+
+.header_logo {
+    height: 3rem;
+}
+
+#sony-logo {
+    width: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER - togli l'altezza e mettila auto alla fine */
+footer {
+    background-color: rgb(28, 68, 153);
+    height: 25rem;
+}
