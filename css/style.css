@@ -62,7 +62,8 @@ main {
     color: white;
 }
 
-.sec1 .container {
+.sec1 .container,
+.sec4 .container {
     height: 100%;
 }
 
@@ -72,7 +73,8 @@ main {
 
 /* SECTION 3 */
 
-.sec3 h1 {
+.sec3 h1,
+.sec4 h1 {
     font-size: 2.5rem;
 }
 
@@ -80,13 +82,19 @@ main {
     filter: opacity(50%);
 }
 
+.sec3 .col-4.col:first-child {
+    background-clip: padding-box;
+    border-bottom: 2px solid rgb(37, 97, 197);
+}
 
+/* SECTION 4 */
 
-
-
-
-
-
+.sec4 {
+    background-image: url('../img/img/it-takes-two-hero-banner-desktop.jpg');
+    height: 965px;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
