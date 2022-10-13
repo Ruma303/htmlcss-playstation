@@ -14,13 +14,18 @@ header {
     width: 8rem;
 }
 
-nav{
+nav {
     font-weight: 500;
 }
 
+nav a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
-.btn_play {
-
+nav ul {
+    gap:1rem;
 }
 
 #accedi {
@@ -29,8 +34,14 @@ nav{
     border-radius: 20px;
 }
 
+.bi.bi-search {
+    color:black;
+    font-weight: 700;
+}
 
 
+
+/* SECTION 1 */
 
 
 
