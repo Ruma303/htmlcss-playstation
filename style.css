@@ -14,12 +14,20 @@ header {
     width: 8rem;
 }
 
+nav{
+    font-weight: 500;
+}
 
 
+.btn_play {
 
+}
 
-
-
+#accedi {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border-radius: 20px;
+}
 
 
 
