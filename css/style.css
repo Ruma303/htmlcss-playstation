@@ -66,6 +66,10 @@ main {
     height: 100%;
 }
 
+.sec1 li:nth-child(2) {
+    white-space: nowrap;
+}
+
 /* SECTION 2 */
 
 /* .sec2 .col {
