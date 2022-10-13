@@ -23,7 +23,7 @@
 <body>
     <header class="position-fixed fixed-top">
         <!-- TOP HEADER BLACK -->
-        <div class="container-fluid header_logo bg-black d-flex justify-content-end">
+        <div class="container-fluid header_logo bg-black d-flex justify-content-end p-2">
             <a href="#!" class="d-flex aling-item-center"><img src="img/img/sony_logo.svg" id="sony-logo" alt=""></a>
         </div>
         <!-- BOTTOM HEADER WHITE + NAV -->
@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav col-9">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Giochi</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Giochi</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -44,7 +44,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -52,7 +52,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servizi</a>
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servizi</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -60,7 +60,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Novità</a>
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Novità</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -68,7 +68,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fai acquisti</a>
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fai acquisti</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -76,7 +76,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Supporto</a>
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Supporto</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -86,7 +86,7 @@
                 </ul>
                 <ul class="navbar-nav col-3 justify-content-end">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Playstation</a>
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Playstation</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#!">Action</a>
                             <a class="dropdown-item" href="#!">Another action</a>
@@ -96,7 +96,7 @@
                     <li>
                         <a href="#!" class="btn btn_play" id="accedi">Accedi</a>
                     </li>
-                    <li>
+                    <li class="d-flex aling-items-center">
                         <a href="#!"><i class="bi bi-search"></i></a>
                     </li>
                 </ul>
@@ -104,17 +104,35 @@
         </nav>
     </header>
     
-<main class="container-fluid">
+<main class="container-fluid p-0 mb-3">
     <!-- SECTION 1-->
-    <section>
-        <div class="container-fluid">
-
+    <section class="sec1 container-fluid ">
+        <div class="container d-flex align-items-end">
+            <ul class="col-4 col-12">
+                <li><figure class="figure"><img src="img/img/returnal-hero-banner-logo.png" class="figure-img img-fluid" alt=""></figure></li>
+                <li><h1>Rompi il cerchio</h1></li>
+                <li><p>Rialzandoti dopo ogni sconfitta e affrotna una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p></li>
+                <li><button>Acquista ora</button></li>
+            </ul>
         </div>
     </section>
     <!-- SECTION 2-->
 
-    <section>
-
+    <section class="sec2 container container-xxl py-5 px-3">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-xxl-6 justify-content-center g-4 gx-3">
+            <div class="col"><figure class="figure"><img src="img/img/returnal-listing-thumb-01-ps5.jpg" class="figure-img img-fluid rounded" alt=""></figure>
+            </div>
+            <div class="col"><figure class="figure"><img src="img/img/ratchet-and-clank-rift-apart-keyart.jpg" class="figure-img img-fluid rounded" alt=""></figure>
+            </div>
+            <div class="col"><figure class="figure"><img src="img/img/returnal-listing-thumb-01-ps5.jpg" class="figure-img img-fluid rounded" alt=""></figure>
+            </div>
+            <div class="col"><figure class="figure"><img src="img/img/ratchet-and-clank-rift-apart-keyart.jpg" class="figure-img img-fluid rounded" alt=""></figure>
+            </div>
+            <div class="col"><figure class="figure"><img src="img/img/returnal-listing-thumb-01-ps5.jpg" class="figure-img img-fluid rounded" alt=""></figure>
+            </div>
+            <div class="col"><figure class="figure"><img src="img/img/ratchet-and-clank-rift-apart-keyart.jpg" class="figure-img img-fluid rounded" alt=""></figure>
+            </div>
+        </div>
     </section>
     <!-- SECTION 3-->
 
