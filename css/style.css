@@ -44,8 +44,7 @@ nav ul {
     font-weight: 600;
     width: fit-content;
     height: fit-content;
-    /* border: 2px;
-    border-color: none; */
+    border: 20rem;
 }
 
 nav .search_ico {
@@ -72,6 +71,8 @@ nav .dropdown-menu.show {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* width: 100vw;
+    background-color: white; */
 }
 
 nav .dropdown-item {
@@ -90,6 +91,11 @@ nav a {
 
 nav li {
     background-color: white;
+}
+
+.nav_login{
+    color: white;
+    /* border-color: black; */
 }
 
 /* MAIN */
