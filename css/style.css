@@ -34,16 +34,12 @@ nav ul {
     border-radius: 20px;
 }
 
-/* nav li {
-    height: 100%;
-} */
-
 .bi.bi-search {
     color:black;
     font-weight: 700;
 }
 
-.bottone{
+.bottone {
     border-radius: 25px;
     font-weight: 600;
     width: fit-content;
@@ -57,6 +53,7 @@ nav .search_ico {
 }
 
 /* I MENU CLICCATI DIVENTANO ORIZZONTALI */
+
 nav .dropdown {
     position: static;
 }
@@ -89,9 +86,11 @@ nav .dropdown-item img{
 nav a {
     text-decoration: none;
     color: black;
-    
 }
 
+nav li {
+    background-color: white;
+}
 
 /* MAIN */
 
