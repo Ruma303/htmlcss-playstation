@@ -25,7 +25,6 @@ nav {
 
 nav ul {
     gap:1rem;
-    height: 100%;
 }
 
 .nav_login {
@@ -40,11 +39,17 @@ nav ul {
 }
 
 .bottone {
-    border-radius: 25px;
+    color: white;
+    border-radius: 30px;
     font-weight: 600;
     width: fit-content;
     height: fit-content;
-    border: 20rem;
+    padding: 6px 10px 8px;
+    border: 3px solid;
+}
+
+a.bottone {
+    text-decoration: none;
 }
 
 nav .search_ico {
@@ -93,9 +98,8 @@ nav li {
     background-color: white;
 }
 
-.nav_login{
-    color: white;
-    /* border-color: black; */
+.bottone.nav_login{
+    border-color: rgb(57, 57, 57);
 }
 
 /* MAIN */
@@ -115,6 +119,12 @@ main {
     width: auto;
     height: 675px;
     color: white;
+}
+
+.sec1 .bottone,
+.sec4 .bottone{
+    border-color: rgb(192, 61, 27);
+    background-color: rgb(192, 61, 27);
 }
 
 .sec1 .container,
@@ -149,7 +159,9 @@ main {
     padding-bottom: 2rem;
 }
 
-.sec3 .bottone {
+.sec3 .bottone,
+.sec6 .bottone {
+    border-color: rgb(60, 99, 227);
     background-color: rgb(60, 99, 227);
 }
 
@@ -160,10 +172,6 @@ main {
     height: 965px;
     background-size: cover;
     background-position: center;
-}
-
-.sec4 .bottone {
-    background-color:rgb(198, 62, 25) ;
 }
 
 /* SECTION 5 */
@@ -195,9 +203,7 @@ section.sec7 {
 
 .sec7 .bottone {
     background-color:rgb(216, 217, 219);
-    font-weight: 600;
-    width: fit-content;
-    height: fit-content;
+    border-color:rgb(216, 217, 219);
 }
 
 

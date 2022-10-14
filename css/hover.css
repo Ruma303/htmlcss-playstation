@@ -1,9 +1,13 @@
 .bottone:hover {
-    border: 2px solid black;
-    background-color: blue;
+    color:white;
+    /* padding: 5px 8px; */
+    /* border-width: 4px; */
 }
-
 
 nav .dropdown-item:hover {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bottone.nav_login:hover{
+    border-color: black;
 }
