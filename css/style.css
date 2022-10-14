@@ -187,9 +187,38 @@ section.sec7 {
     max-width: 15rem;
 }
 
+.sec10 {
+    margin-bottom: 8rem;
+}
+
 /* FOOTER */
 
 footer {
-    background-color: rgb(28, 68, 153);
+    background-color: #1c4499;
     height: auto;
+}
+
+footer img {
+    width: 8rem;
+    position: relative;
+}
+
+footer .p_nowrap,
+footer a {
+    white-space: nowrap;
+}
+
+/* footer figure {
+    position: relative;
+}
+
+footer span {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+} */
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
