@@ -47,6 +47,10 @@ nav li {
     border-radius: 25px;
 }
 
+nav .search_ico {
+    width: 1.7rem;
+}
+
 /* MAIN */
 
 main {
@@ -78,7 +82,8 @@ main {
 /* SECTION 3 */
 
 .sec3 h1,
-.sec4 h1 {
+.sec4 h1,
+.sec8 h1 {
     font-size: 2.5rem;
 }
 
@@ -118,12 +123,28 @@ section.sec7 {
     background-color: rgb(188, 186, 186);
 }
 
-.sec7 p {
+.sec7 p,
+.sec8 p  {
     font-weight: 600;
 }
 
 .sec7 a {
     background-color: rgb(216, 217, 219);
+    font-weight: 600;
+}
+
+/* SECTION 9 */
+
+.sec9 {
+    background-color: rgb(29, 33, 61);
+}
+
+.sec9 .row {
+    height: 100%;
+}
+
+.sec9 .rotondo {
+    background-color:rgb(245, 245, 245);
     font-weight: 600;
 }
 
