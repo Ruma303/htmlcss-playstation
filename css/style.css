@@ -51,6 +51,38 @@ nav .search_ico {
     width: 1.7rem;
 }
 
+/* I MENU CLICCATI DIVENTANO ORIZZONTALI */
+nav .dropdown {
+    position: static;
+}
+
+nav .dropdown-menu[data-bs-popper] {
+    width: 100%;
+    margin-top: 0;
+}
+
+nav .dropdown-menu {
+    border: none;
+    border-radius: 0;
+}
+
+nav .dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav .dropdown-item {
+    text-align: center;
+}
+
+nav .dropdown-item img{
+    display: block;
+    width: 100%;
+}
+
+
+
 /* MAIN */
 
 main {
