@@ -28,7 +28,7 @@ nav ul {
     height: 100%;
 }
 
-#accedi {
+.nav_login {
     background-color: rgb(53, 53, 53);
     color: white;
     border-radius: 20px;
@@ -43,8 +43,13 @@ nav li {
     font-weight: 700;
 }
 
-.rotondo{
+.bottone{
     border-radius: 25px;
+    font-weight: 600;
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px;
+    border-color: none; */
 }
 
 nav .search_ico {
@@ -119,13 +124,23 @@ main {
     font-size: 2.5rem;
 }
 
-.sec3 .last_row img {
+.sec3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec3 .last_row .card {
     filter: opacity(50%);
 }
 
-.sec3 .col-4.col:first-child {
+.sec3 .first_card {
     background-clip: padding-box;
     border-bottom: 2px solid rgb(37, 97, 197);
+    padding-bottom: 2rem;
+}
+
+.sec3 .bottone {
+    background-color: rgb(60, 99, 227);
 }
 
 /* SECTION 4 */
@@ -137,6 +152,9 @@ main {
     background-position: center;
 }
 
+.sec4 .bottone {
+    background-color:rgb(198, 62, 25) ;
+}
 
 /* SECTION 5 */
 
@@ -147,6 +165,11 @@ main {
 .sec-5 .card {
     border: none;
     background-color: none;
+}
+
+.sec5 .rounded,
+.sec1 .bottone {
+    background-color: rgb(198, 62, 25);
 }
 
 /* SECTION 7 */
@@ -160,7 +183,7 @@ section.sec7 {
     font-weight: 600;
 }
 
-.sec7 .rotondo {
+.sec7 .bottone {
     background-color:rgb(216, 217, 219);
     font-weight: 600;
     width: fit-content;
@@ -174,11 +197,8 @@ section.sec7 {
     background-color: rgb(29, 33, 61);
 }
 
-.sec9 .rotondo {
+.sec9 .bottone {
     background-color:rgb(245, 245, 245);
-    font-weight: 600;
-    width: fit-content;
-    height: fit-content;
 }
 
 /* SECTION 10 */
