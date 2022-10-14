@@ -181,6 +181,12 @@ section.sec7 {
     height: fit-content;
 }
 
+/* SECTION 10 */
+
+.sec10 figure{
+    max-width: 15rem;
+}
+
 /* FOOTER */
 
 footer {
