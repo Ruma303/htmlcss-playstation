@@ -56,6 +56,18 @@ nav .search_ico {
     width: 1.7rem;
 }
 
+/* nav .dotted_link {
+    vertical-align: middle;
+} */
+
+nav .dotted_link:before {
+    content:'\2022';
+    display:inline-block;
+    margin-right: .5rem;
+    color: blue;
+    font-size: 1.5rem;
+}
+
 /* I MENU CLICCATI DIVENTANO ORIZZONTALI */
 
 nav .dropdown {
@@ -244,15 +256,11 @@ footer a {
     white-space: nowrap;
 }
 
-/* footer figure {
+footer .registered {
     position: relative;
+    right:30px;
+    bottom: -30px;
 }
-
-footer span {
-    position: absolute;
-    right: 10%;
-    bottom: 10%;
-} */
 
 footer a {
     text-decoration: none;
