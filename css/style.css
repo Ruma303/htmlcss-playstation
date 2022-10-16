@@ -193,7 +193,7 @@ main {
     filter: opacity(50%);
 }
 
-.sec3 .first_card {
+.sec3 .last_row .col:first-child:not(.col.d-flex) {
     background-clip: padding-box;
     border-bottom: 2px solid rgb(37, 97, 197);
     padding-bottom: 2rem;
