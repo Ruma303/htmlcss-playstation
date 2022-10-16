@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
-header {
-    height: auto;
-}
-
 ul {
     list-style: none;
+}
+
+/* HEADER */
+
+header {
+    height: auto;
 }
 
 .header_logo {
@@ -104,6 +106,7 @@ nav .dropdown-item img{
 nav a {
     text-decoration: none;
     color: black;
+    white-space: nowrap;
 }
 
 nav li {
@@ -112,6 +115,10 @@ nav li {
 
 .bottone.nav_login{
     border-color: rgb(57, 57, 57);
+}
+
+.bi-caret-up-fill {
+    display: none;
 }
 
 /* MAIN */
@@ -148,6 +155,21 @@ main {
     white-space: nowrap;
 }
 
+/* SECTION 2 */
+
+.sec2 figure,
+.sec2 img {
+    margin:0;
+    padding: 0;
+}
+
+.sec2 figure {
+    position: relative;
+    transition-property: bottom;
+    transition-duration: .3s;
+    bottom:0;
+}
+
 /* SECTION 3 */
 
 .sec3 h1,
@@ -161,6 +183,12 @@ main {
     color: black;
 }
 
+.sec3 .bottone,
+.sec6 .bottone {
+    border-color: rgb(60, 99, 227);
+    background-color: rgb(60, 99, 227);
+}
+
 .sec3 .last_row .card {
     filter: opacity(50%);
 }
@@ -169,12 +197,6 @@ main {
     background-clip: padding-box;
     border-bottom: 2px solid rgb(37, 97, 197);
     padding-bottom: 2rem;
-}
-
-.sec3 .bottone,
-.sec6 .bottone {
-    border-color: rgb(60, 99, 227);
-    background-color: rgb(60, 99, 227);
 }
 
 /* SECTION 4 */
