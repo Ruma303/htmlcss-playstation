@@ -1,21 +1,26 @@
+/* HEADER */
+
+
+/* BOTTONI */
 .bottone:hover {
     color:white;
-    /* padding: 5px 8px; */
-    /* border-width: 4px; */
+    border: 2px solid;
+    padding: 6px 10px 8px;
+    bottom: 1rem;
+}
+
+.nav_login:hover {
+border-color: rgb(53, 53, 53);
 }
 
 nav .dropdown-item:hover {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
 }
 
-.bottone.nav_login:hover{
-    border-color: black;
+.dropdown-toggle:hover::after {
+    transform: rotate(180deg);
 }
 
-/* funziona solo con active e hover */
-.dropdown-toggle.menu_arrow:active {
-    transform: rotate(90deg);
-}
 
 /* SECTION 2 */
 
@@ -30,7 +35,6 @@ nav .dropdown-item:hover {
 .sec3 .last_row .card:hover {
     filter: opacity(100%);
 }
-
 
 .sec3 .last_row .col:hover:not(.col.d-flex) {
     background-clip: padding-box;

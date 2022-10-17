@@ -29,6 +29,11 @@ nav ul {
     gap:1rem;
 }
 
+.dropdown-toggle::after {
+    transform: rotate(0deg);
+}
+
+
 .nav_login {
     background-color: rgb(53, 53, 53);
     color: white;
@@ -47,7 +52,7 @@ nav ul {
     width: fit-content;
     height: fit-content;
     padding: 6px 10px 8px;
-    border: 3px solid;
+    border: 2px solid;
 }
 
 a.bottone {
@@ -57,10 +62,6 @@ a.bottone {
 nav .search_ico {
     width: 1.7rem;
 }
-
-/* nav .dotted_link {
-    vertical-align: middle;
-} */
 
 nav .dotted_link:before {
     content:'\2022';
@@ -90,8 +91,6 @@ nav .dropdown-menu.show {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* width: 100vw;
-    background-color: white; */
 }
 
 nav .dropdown-item {
